@@ -1,1 +1,1 @@
-from base_model.py import BaseModel
+#!/usr/bin/python3
