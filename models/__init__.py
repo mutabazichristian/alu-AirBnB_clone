@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""models"""
-from models.base_model import BaseModel
-from engine.file_storage import FileStorage
+"""
+__init__ dunder method for the models directory
+"""
+from models.engine.file_storage import FileStorage
+
 
 storage = FileStorage()
 storage.reload()
-
-classes = {"BaseModel": BaseModel}
