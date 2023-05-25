@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-
 import uuid
-import models
 from datetime import datetime
-from models import storage
-
 class BaseModel:
     """
     A base class that defines common attributes and methods for other classes.
@@ -76,4 +72,3 @@ class BaseModel:
         obj_dict['created_at'] = self.created_at.isoformat()
         obj_dict['updated_at'] = self.updated_at.isoformat()
         return obj_dict
-
